@@ -2,9 +2,29 @@
 
     .half-bar-menu{
         border: 1px solid white;
-        width: 200px;
+        width: 250px;
     }
     span{
         display: inherit;
+    }
+
+    ul li{
+        padding: 10px 0;
+        padding-left: 10px;
+    
+    }
+    
+    .pad-element{
+        padding: 15px ;
+        padding-left: 10px;
+    }
+
+    .invisible-item{
+        display: none;
+    }
+
+    .logo-style{
+        width: 150px;
+        padding: 12px 10px;
     }
 }

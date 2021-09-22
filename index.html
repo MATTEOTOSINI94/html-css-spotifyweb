@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/mediaq.css">
     <title>Spootify</title>
@@ -20,12 +22,12 @@
         <div class="half-bar-menu">
             <div class="menu-logo ">
                 <div>
-                    <img style="filter: invert();" class="icon" src="img/favicon.ico" alt="">
-                    <h2><span>Spootify</span></h2>
+                    <img style="filter: invert();" class="icon invisible-item" src="img/favicon.ico" alt="">
+                    <span> <img class="logo-style" src="img/logo.svg" alt=""> </span>
                </div>
 
                 <div class="list-icon">  
-                    <ul>
+                    <ul class="">
                         <li><a href=""> <img class="icon" src="img/home.svg" alt=""> <span> Home</span></a></li>
                         <li><a href=""> <img class="icon" src="img/search.svg" alt="">  <span>Cerca</span> </a></li>
                         <li><a href=""> <img class="icon" src="img/libreria.svg" alt=""><span>La tua libreria</span> </a></li>
@@ -37,14 +39,41 @@
 
             
             <div class="middle-menu">
-                <h5><span>PLAYLIST</span></h5>
-                <span><img src="" alt=""></span>
+                  <span>
+                   <h5 class="pad-element">PLAYLIST</h5>
+                </span>
+
+                <span>
+                   <div class="pad-element">
+                        <img class="icon" src="img/logo-small.svg" alt="">
+                        <p class="style-sheet">Cre la tua playlist</p>
+                   </div>
+                </span>
+
+                <span>
+                   <ul class="pad-element">
+                       <li><a href="">Nome Playlist</a></li>
+                       <li><a href="">Nome Playlist</a></li>
+                       <li><a href="">Nome Playlist</a></li>
+                       <li><a href="">Nome Playlist</a></li>  
+                   </ul>
+                </span>
+                
+            
             </div>
+
+
+
             <div class="last-menu">
-                <div>
-                    <img style="background-color: grey; border-radius: 50%;" class="icon" src="img/profile.svg" alt="">
-                      <h6><span>John Doe</span></h6>
+                <div class="pad-element">
+                    <img class="icon" src="img/download.svg" alt="">
+                    <p class="style-sheet"><span>Installa app</span></p>
                 </div>
+                <div class="pad-element">
+                    <img style="background-color: grey; border-radius: 50%;" class="icon" src="img/profile.svg" alt="">
+                    <h6><span>John Doe</span></h6>
+                </div>
+            
             </div>
             
 

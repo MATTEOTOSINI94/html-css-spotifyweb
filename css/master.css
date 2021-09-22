@@ -25,6 +25,7 @@
 body{
     color: white;
     font-family: 'Montserrat', sans-serif;;
+    
 }
 .half-bar-menu{
     border: 1px solid white;
@@ -83,7 +84,6 @@ span{
 h2,h6{
     display: inline-block;
 }
-
   
 ul {
     list-style: none;
@@ -95,3 +95,11 @@ ul li a{
     font-size: 12px;
     font-weight: bold;
 }
+
+ .style-sheet{
+    font-size: 12px;
+    display: inline-block;
+}
+
+
+
