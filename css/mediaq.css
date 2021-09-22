@@ -1,0 +1,10 @@
+@media screen and (min-width: 560px){
+
+    .half-bar-menu{
+        border: 1px solid white;
+        width: 200px;
+    }
+    span{
+        display: inherit;
+    }
+}
