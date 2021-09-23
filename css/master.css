@@ -67,8 +67,7 @@ flex-direction: column;
     
 }
 .main-box-top{
-    height: 65px;
-   
+   min-height: 65px;
     position: relative;
     
 }
@@ -197,6 +196,11 @@ nav ul li a{
     padding-left: 10px;
 
 }
+
+.music-banner{
+    width: 100%;
+    object-fit: contain;
+}
   
 .text-card{
     width: 160px;
@@ -215,9 +219,18 @@ nav ul li a{
     height: 160px;
     background: chocolate;
     border-radius: 50%;
+    overflow: hidden;
 }
 .style-cards-description{
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 15px;
+}
+
+.play-line{
+    background: rgba(255, 255, 255, 0.589);
+    border: 1px solid white;
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: black;
 }
