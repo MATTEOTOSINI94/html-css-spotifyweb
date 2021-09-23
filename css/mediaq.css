@@ -3,6 +3,7 @@
     .half-bar-menu{
         border: 1px solid white;
         width: 250px;
+        align-items: inherit;
     }
     span{
         display: inherit;
@@ -15,7 +16,7 @@
     }
     
     .pad-element{
-        padding: 15px ;
+        padding: 10px ;
         padding-left: 10px;
     }
 
@@ -27,4 +28,5 @@
         width: 150px;
         padding: 12px 10px;
     }
+    
 }
