@@ -33,6 +33,9 @@
         font-size: 13px;
         vertical-align: middle;
     }
+    .social{
+        display: inline;
+    }
     
     
 }

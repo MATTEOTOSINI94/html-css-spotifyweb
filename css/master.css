@@ -68,7 +68,7 @@ flex-direction: column;
 }
 .main-box-top{
     height: 65px;
-    border: 1px solid white;
+   
     position: relative;
     
 }
@@ -76,6 +76,7 @@ flex-direction: column;
  .main-box-bottom{
     flex-grow: 1 ;
     background-color: #141922;
+    overflow: auto;
 }
 
 .icon{
@@ -119,6 +120,7 @@ ul li a{
 .middle-content{
     flex-grow: 1;
     text-align:center;
+    min-width: 150px;
 }
 .right-content{
     flex-shrink: 0;
@@ -163,4 +165,42 @@ ul li a{
     font-weight: bold;
 }
 
+.social{
+    width: 15%;
+}
+nav{
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a{
+    padding: 10px 10px;
+    line-height: 40px;
 
+}
+ 
+/* card-box */
+
+.panel-card{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+  
+.text-card{
+    width: 160px;
+    text-align: center; 
+}
+
+.panel-card .card{
+    width: 160px;
+    height: 160px;
+    background: chocolate;
+   
+}
