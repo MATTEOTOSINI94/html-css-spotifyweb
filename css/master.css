@@ -185,6 +185,22 @@ nav ul li a{
     line-height: 40px;
 
 }
+
+nav ul :nth-child(1){
+    position: relative;
+}
+
+.line::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    background: #ADFF2F;
+    border: 1px solid #ADFF2F;
+    border-radius: 10px;
+    width: 30%;
+}
  
 /* card-box */
 
@@ -205,6 +221,12 @@ nav ul li a{
 .text-card{
     width: 160px;
     text-align: center; 
+    padding-top: 10px;
+   
+}
+
+.text-card h3{
+    padding-bottom: 10px;
 }
 
 .panel-card .card{
@@ -225,6 +247,7 @@ nav ul li a{
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 15px;
+    line-height: 30px;
 }
 
 .play-line{

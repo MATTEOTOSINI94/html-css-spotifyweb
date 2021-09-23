@@ -36,6 +36,11 @@
     .social{
         display: inline;
     }
+
+    .list-icon ul li:nth-child(1){
+        border-left: 4px solid #ADFF2F;
+
+    }
     
     
 }
