@@ -17,14 +17,18 @@
     right: 0;
     left: 0;
     height: 68px;
-    background-color: #5A5A5A;
+    background-color: rgb(40, 40, 40);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
 
 }
 body{
     color: white;
     font-family: 'Montserrat', sans-serif;;
+    font-size: 10px;
     
 }
 .half-bar-menu{
@@ -61,11 +65,11 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     
-
 }
 .main-box-top{
     height: 65px;
     border: 1px solid white;
+    position: relative;
     
 }
 
@@ -83,7 +87,7 @@ span{
     display: none;  
  }
 
-
+.mini-box,
 .half-bar-menu
 h2,h6{
     display: inline-block;
@@ -109,20 +113,54 @@ ul li a{
     overflow: auto;
 }
 .left-content{
-    display: flex;
     flex-shrink: 0;
+    padding-left: 10px;
 }
 .middle-content{
     flex-grow: 1;
+    text-align:center;
 }
 .right-content{
     flex-shrink: 0;
+    padding-right: 10px;
+    margin-left: 10px;
 }
 
-.left-content .social{
-    display: flex;
-    flex-wrap: wrap;
+.bar-play{
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+.player{
+    background: grey;
+    border: 2px solid grey;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+.player2{
+    background: grey;
+    border: 2px solid grey;
+    width: 50px ;
+    border-radius: 20px;
+   
+}
+.icon-player i{
+    padding: 0 5px;
+  
 }
 
+.upgrade-style{
+    border: 1px solid white;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
 
 

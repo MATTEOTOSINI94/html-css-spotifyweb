@@ -1,7 +1,7 @@
 @media screen and (min-width: 560px){
 
     .half-bar-menu{
-        border: 1px solid white;
+        
         width: 250px;
         align-items: inherit;
     }
@@ -10,7 +10,7 @@
     }
 
     ul li{
-        padding: 10px 0;
+        padding: 7px 0;
         padding-left: 10px;
     
     }
@@ -26,7 +26,13 @@
 
     .logo-style{
         width: 150px;
-        padding: 12px 10px;
+        padding: 10px 10px;
     }
+
+    #playlist-add{
+        font-size: 13px;
+        vertical-align: middle;
+    }
+    
     
 }
