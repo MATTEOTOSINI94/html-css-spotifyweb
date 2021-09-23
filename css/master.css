@@ -165,6 +165,12 @@ ul li a{
     font-weight: bold;
 }
 
+.sub-title-section{
+
+    font-size: 20px ; 
+    padding-left: 10px;
+}
+
 .social{
     width: 15%;
 }
@@ -191,7 +197,6 @@ nav ul li a{
     padding-left: 10px;
 
 }
-
   
 .text-card{
     width: 160px;
@@ -203,4 +208,16 @@ nav ul li a{
     height: 160px;
     background: chocolate;
 
+}
+
+.giotto-card{
+    width: 160px;
+    height: 160px;
+    background: chocolate;
+    border-radius: 50%;
+}
+.style-cards-description{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
