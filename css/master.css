@@ -274,7 +274,7 @@ nav ul :nth-child(1){
     padding-bottom: 10px;
 }
 
-.card{
+.giotto-card , .card{
     position: relative;
 }
 
@@ -294,10 +294,16 @@ nav ul :nth-child(1){
     height: 100%;
     display: none;
 }
-.card:hover .overlay{
+ .card:hover .overlay{
     display: block;
     background: rgba(0, 0, 0, .6);
     
+}
+
+.giotto-card:hover .overlay{
+    display: block;
+    background: rgba(0, 0, 0, .6);
+
 }
 
 .music-banner{
@@ -306,8 +312,7 @@ nav ul :nth-child(1){
 }
 
 .giotto-card{
-    /* width: 160px;
-    height: 160px; */
+    
    
     border-radius: 50%;
     overflow: hidden;
