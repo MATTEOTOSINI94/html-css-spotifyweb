@@ -40,12 +40,19 @@
     .list-icon ul li:nth-child(1){
         border-left: 4px solid #ADFF2F;
 
+
     }
-    
-    @media screen and (min-width: 760px){
-/* 
+
     .text-card-box{
         width: calc(100% / 3 - 6px );
        }
-     */
+}
+
+
+    @media screen and (min-width: 760px){
+
+    .text-card-box{
+        width: calc(100% / 4 - 6px );
+       }
+    
 }

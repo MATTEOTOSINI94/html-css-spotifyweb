@@ -216,7 +216,7 @@ nav ul :nth-child(1){
 
   
 .text-card{
-    /* width: 160px; */
+    width: 160px;
     text-align: center; 
     padding-top: 10px;
    
