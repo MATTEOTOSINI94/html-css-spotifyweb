@@ -126,6 +126,10 @@ ul li a{
     flex-shrink: 0;
     padding-left: 10px;
 }
+
+.left-content .mini-box{
+    padding-right: 5px;
+}
 .middle-content{
     flex-grow: 1;
     text-align:center;
@@ -141,13 +145,43 @@ ul li a{
     font-size: 15px;
     padding-bottom: 7px;
 }
+
+.bar-play i{
+    transition: 1s ;
+}
+.bar-play i:hover{
+    color: grey
+}
 .player{
     background: grey;
     border: 0.5px solid grey;
     width: 50%;
     border-radius: 20px;
-    
+      
+
 }
+
+
+.play-line{
+    background: rgb(255, 255, 255);
+    border: 1.5px solid white;
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: black;
+    position: relative;
+}
+
+.player::after{
+    content: "";
+    background: white;
+    border: 1px solid white;
+    border-width: thick;
+    position: absolute;
+    bottom: 13px;
+    border-radius: 50%;
+}
+
+
 .player2{
     background: grey;
     border: 0.5px solid grey;
@@ -156,13 +190,7 @@ ul li a{
    
 }
 
-.play-line{
-    background: rgb(255, 255, 255);
-    border: 1.5px solid white;
-    width: 50%;
-    border-radius: 40px;
-    box-shadow: black;
-}
+
 .icon-player i{
     padding: 0 5px;
   

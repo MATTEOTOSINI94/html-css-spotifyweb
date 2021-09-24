@@ -31,12 +31,18 @@
     }
 
     #playlist-add{
-        font-size: 13px;
+        font-size: 12px;
         vertical-align: middle;
         font-weight: bold;
+        padding-left: 7px;
+    }
+
+    #playlist-add:hover{
+      color: grey;
     }
     .social{
         display: inline;
+        color: grey;
     }
 
     .list-icon ul li:nth-child(1){
@@ -46,13 +52,11 @@
     }
 
     .text-card-box{
-
- 
        width: calc(100% / 3 - 8px );
-       }
+    }
 
 
-       .lines-half::before{
+    .lines-half::before{
            content: "";
            position: absolute;
            top: 0;
@@ -62,7 +66,13 @@
            border: 1px solid #ADFF2F;
            border-radius: 10px;
            width: 85%;
-       }
+     }
+
+    .pad-element h6{
+           font-size: 14px;
+           vertical-align: middle;
+        }
+        
 }
 
 
@@ -79,6 +89,10 @@
 
     .text-card-box{
         width: calc(100% / 6 - 10px );
+       }
+
+       .style-sheet {
+        font-size: 12px;
        }
     
 }
