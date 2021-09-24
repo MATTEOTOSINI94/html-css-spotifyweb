@@ -104,6 +104,10 @@ ul li a{
     font-weight: bold;
 }
 
+.list-icon ul li a:hover{
+    color: white;
+}
+
  .style-sheet{
     font-size: 8px;
     display: inline-block;
@@ -112,6 +116,12 @@ ul li a{
 .over-list{
     overflow: auto;
 }
+
+.pad-element li a:hover{
+    color: white;
+}
+
+
 .left-content{
     flex-shrink: 0;
     padding-left: 10px;
@@ -133,17 +143,25 @@ ul li a{
 }
 .player{
     background: grey;
-    border: 2px solid grey;
+    border: 0.5px solid grey;
     width: 50%;
     border-radius: 20px;
     
 }
 .player2{
     background: grey;
-    border: 2px solid grey;
+    border: 0.5px solid grey;
     width: 50px ;
     border-radius: 20px;
    
+}
+
+.play-line{
+    background: rgb(255, 255, 255);
+    border: 1.5px solid white;
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: black;
 }
 .icon-player i{
     padding: 0 5px;
@@ -162,7 +180,16 @@ ul li a{
     right: 10px;
     transform: translateY(-50%);
     font-weight: bold;
+    transition: 1s ;
 }
+
+.upgrade-style:hover{
+    padding: 12px 29px;
+    color: #ADFF2F;
+    border: 1px solid #ADFF2F ;
+}
+
+
 
 .sub-title-section{
 
@@ -201,6 +228,22 @@ nav ul :nth-child(1){
     border-radius: 10px;
     width: 30%;
 }
+.lib li a:hover{
+    color: white;
+}
+
+.lib li a:hover::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    background: #ADFF2F;
+    border: 1px solid #ADFF2F;
+    border-radius: 10px;
+    width: 30%;
+
+}
  
 /* card-box */
 
@@ -216,7 +259,7 @@ nav ul :nth-child(1){
 
   
 .text-card{
-    width: 160px;
+    width: 100%;
     text-align: center; 
     padding-top: 10px;
    
@@ -231,12 +274,13 @@ nav ul :nth-child(1){
     padding-bottom: 10px;
 }
 
-.panel-card .card{
-    width: 160px;
-    height: 160px;
-    background: chocolate;
-
+.card{
+    position: relative;
 }
+
+
+
+
 
 .music-banner{
     width: 100%;
@@ -257,10 +301,3 @@ nav ul :nth-child(1){
     line-height: 30px;
 }
 
-.play-line{
-    background: rgba(255, 255, 255, 0.589);
-    border: 1px solid white;
-    width: 50%;
-    border-radius: 40px;
-    box-shadow: black;
-}

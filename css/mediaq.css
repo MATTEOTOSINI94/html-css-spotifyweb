@@ -18,6 +18,7 @@
     .pad-element{
         padding: 10px ;
         padding-left: 10px;
+        position: relative;
     }
 
     .invisible-item{
@@ -32,6 +33,7 @@
     #playlist-add{
         font-size: 13px;
         vertical-align: middle;
+        font-weight: bold;
     }
     .social{
         display: inline;
@@ -44,7 +46,22 @@
     }
 
     .text-card-box{
-        width: calc(100% / 3 - 8px );
+
+ 
+       width: calc(100% / 3 - 8px );
+       }
+
+
+       .lines-half::before{
+           content: "";
+           position: absolute;
+           top: 0;
+           right: 50%;
+           transform: translateX(50%);
+           background: #ADFF2F;
+           border: 0.5px solid #ADFF2F;
+           border-radius: 10px;
+           width: 85%;
        }
 }
 
@@ -53,6 +70,15 @@
 
     .text-card-box{
         width: calc(100% / 4 - 10px );
+       }
+    
+}
+
+
+@media screen and (min-width: 920px){
+
+    .text-card-box{
+        width: calc(100% / 6 - 10px );
        }
     
 }
