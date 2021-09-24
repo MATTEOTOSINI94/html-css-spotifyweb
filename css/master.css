@@ -280,7 +280,7 @@ nav ul :nth-child(1){
 
 .buttonover{
     position: absolute;
-    font-size: 25px;
+    font-size: 50px;
     top: 50%;
     right: 50%;
     transform: translate(50% , -50%);
@@ -297,7 +297,7 @@ nav ul :nth-child(1){
 .card:hover .overlay{
     display: block;
     background: rgba(0, 0, 0, .6);
-    border-radius: 10px;
+    
 }
 
 .music-banner{
