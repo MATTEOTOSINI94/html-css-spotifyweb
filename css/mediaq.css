@@ -59,7 +59,7 @@
            right: 50%;
            transform: translateX(50%);
            background: #ADFF2F;
-           border: 0.5px solid #ADFF2F;
+           border: px solid #ADFF2F;
            border-radius: 10px;
            width: 85%;
        }
