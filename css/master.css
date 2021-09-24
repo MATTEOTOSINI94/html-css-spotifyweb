@@ -225,6 +225,10 @@ nav ul :nth-child(1){
    
 }
 
+
+/* .text-card-box{
+ width: calc(100% / 3 );
+} */
 .text-card h3{
     padding-bottom: 10px;
 }
