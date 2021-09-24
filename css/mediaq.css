@@ -44,7 +44,7 @@
     }
 
     .text-card-box{
-        width: calc(100% / 3 - 6px );
+        width: calc(100% / 3 - 8px );
        }
 }
 
@@ -52,7 +52,7 @@
     @media screen and (min-width: 760px){
 
     .text-card-box{
-        width: calc(100% / 4 - 6px );
+        width: calc(100% / 4 - 10px );
        }
     
 }
